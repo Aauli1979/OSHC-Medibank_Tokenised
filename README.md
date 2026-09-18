@@ -6,4 +6,5 @@ netstat -ano | findstr :8080 ==> tasklist /FI "PID eq 8840" ==> taskkill /PID 88
 if already ran the backend and need to run again ==> mvn spring-boot:run (after the 1st time)
 ************************************************************************************************************
 Commands to run the Frontend ==> npm install ==> npm run dev 
+
 If the frontend has error ==> run npm clean package ==> npm install ==> npm run dev
